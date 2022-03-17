@@ -3,14 +3,393 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mondays</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <p>sdasdfsdfsdfdasd</p>
-
-
-
+    <div class="header__top">
+        <a class="logo-link" href="index.html">
+            <img src="images/logo.svg" alt="images logo">
+        </a>
+        <div class="header__top-box">
+            <a class="link-open" href="#">
+                Войти
+            </a>
+            <a class="link-top" href="#">
+                Создать аккаунт
+            </a>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="pagination">
+            <p class="pagination-active__item">1</p>
+            <div class="pagination-progress">
+                <div class="pagination-progress__item">
+                </div>
+            </div>
+            <p class="pagination-number__item">10</p>
+        </div>
+    </nav>
+    <div id="fullpage">
+        <header class="header section" id="section1" data-anchor="section1">
+            <div class="intro">
+                <div class="video">
+                    <video class="video__media" id="myVideo" poster="images/header-bg.png" loop playsinline src="video/video.mp4">
+                    </video>
+                </div>
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__wrapper">
+                            <div class="header__content">
+                                <div class="header__content-box">
+                                    <p class="subtitle">
+                                        Начать учиться - <span>просто.</span>
+                                    </p>
+                                    <h1>
+                                        Сделайте <br>
+                                        шаг с <span>Mondays</span>
+                                    </h1>
+                                </div>
+                                <button id="btn" class="btn" onclick="myFunction()">
+                                    <div class="play"><img src="images/icons/play.svg" alt=""></div>
+                                </button>
+                            </div>
+                            <div class="social-top">
+                                <a class="social-link" href="#">
+                                    FACEBOOK                    
+                                </a>
+                                <a class="social-link" href="#">
+                                    INSTAGRAM
+                                </a>
+                                <a class="social-link" href="#">
+                                    TELEGRAM
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <section class="section section-two" id="section2" data-anchor="section2">
+                <div class="container-min">
+                    <div class="section__inner">
+                        <div class="content-two">
+                            <h2 class="title">
+                                Только лучшие <span>курсы</span>
+                            </h2>
+                            <p class="text">
+                                Все курсы Mondays проходят тщательнейшею ручную проверку.
+                                Это гарантирует то, что вы получите <span>максимальное качество и
+                                пользу</span> от любого курса, размещенного на нашей платформе.
+                            </p>
+                            <a class="link" href="#">
+                                Участвовать
+                            </a>
+                        </div>
+                        <div class="box box-eight">
+                            <div class="images-box__phone-one">
+                                <img class="images-one" src="images/phone/phone-2.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg-3.png" alt="bg">
+                            </div>
+                            <div class="images-box__phone-two">
+                                <img class="images-two" src="images/phone/phone-1.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg.png" alt="bg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-three" id="section3" data-anchor="section3">
+                <div class="container-min">
+                    <div class="section__inner-reverse">
+                        <div class="box box-three">
+                            <div class="images-box__phone">
+                                <img class="images-small" src="images/phone/phone-3.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg.png" alt="background">
+                            </div>
+                            <div class="images-box__desk">
+                                <img class="images-desk" src="images/phone/desk-1.png" alt="images"">
+                            </div>
+                        </div>
+                        <div class="content-three">
+                            <h2 class="title">
+                                Проходите на <span>любых устройствах</span>
+                            </h2>
+                            <p class="text">
+                                Мы разрабатывали платформу, чтобы обеспечить максимальное удобство
+                                прохождения как через <span>мобильное приложения</span>, так и через <span>компьютер.</span> 
+                            </p>
+                            <a class="link" href="#">
+                                Участвовать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-four" id="section4" data-anchor="section4">
+                <div class="container-min">
+                    <div class="section__inner">
+                        <div class="content-four">
+                            <h2 class="title">
+                                Гарантия получения <span>знаний</span>
+                            </h2>
+                            <p class="text text-three">
+                                Курсы с последовательной подачей материала заканчивают более <span>75% пользователей</span>, тогда
+                                как обычные курсы - только 30%. 
+                            </p>
+                            <a class="link" href="#">
+                                Участвовать
+                            </a>
+                        </div>
+                        <div class="box box-four">
+                            <div class="images-box__phone-four">
+                                <img class="images-three" src="images/phone/phone-4.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg.png" alt="bg">
+                            </div>
+                            <div class="images-box__phone-three">
+                                <img class="images-one" src="images/phone/phone-5.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg.png" alt="bg">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-five" id="section5" data-anchor="section5">
+                <div class="container-min">
+                    <div class="section__inner-reverse">
+                        <div class="box-one">
+                            <div class="images-box__phone">
+                                <img class="images-one" src="images/phone/phone-7.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg.png" alt="bg">
+                            </div> 
+                            <div class="images-box__phone-five">
+                                <img class="images-five" src="images/phone/phone-6.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg.png" alt="bg">
+                            </div> 
+                        </div>
+                        <div class="content-five">
+                            <h2 class="title">
+                                Удобная <span>обратная связь</span>
+                            </h2>
+                            <p class="text">
+                                Выполнять задания и получать <span>обратную связь</span>
+                                от автора теперь <span>максимально просто и удобно</span>,
+                                на любых платформах. 
+                            </p>
+                            <a class="link" href="#">
+                                Участвовать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-six" id="section6" data-anchor="section6">
+                <div class="container-min">
+                    <div class="section__inner-six">
+                        <div class="content-six">
+                            <h2 class="title">
+                                Гибкие <span>тарифы</span>
+                            </h2>
+                            <p class="text">
+                                Вы можете купить как просто <span>доступ к контенту</span>,
+                                так и <span>помощь автора</span> в различной степени. 
+                            </p>
+                            <a class="link" href="#">
+                                Участвовать
+                            </a>
+                        </div>
+                        <div class="box box-six">
+                            <div class="images-box__phone">
+                                <img class="images-small" src="images/phone/phone-8.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg.png" alt="background">
+                            </div>
+                            <div class="images-box__desk-one">
+                                <img class="images-desk__one" src="images/phone/desk-2.png" alt="images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-seven" id="section7" data-anchor="section7">
+                <div class="container-min">
+                    <div class="section__inner-reverse">
+                        <div class="box box-seven">
+                            <div class="images-box__phone">
+                                <img class="images-small" src="images/phone/phone-9.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg.png" alt="background">
+                            </div>
+                            <div class="images-box__desk">
+                                <img class="images-desk__two" src="images/phone/desk-3.png" alt="images">
+                            </div> 
+                        </div>
+                        <div class="content-seven">
+                            <h2 class="title">
+                                Рекомендации <br> и <span>удобный поиск</span>
+                            </h2>
+                            <p class="text text-seven">
+                                Наша система рекомендаций и удобный поиск позволят вам сделать <span>постоянное обучение
+                                и развитие</span> частью вашей жизни.       
+                            </p>
+                            <a class="link" href="#">
+                                Участвовать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-eight" id="section8" data-anchor="section8">
+                <div class="container-min">
+                    <div class="section__inner">
+                        <div class="content-eight">
+                            <h2 class="title title-eight">
+                                Система <span>оповещений</span>
+                            </h2>
+                            <p class="text text-eight">
+                                Получайте оповещения от автора в течение
+                                дня, чтобы полностью <span>погрузиться в образовательный процесс.</span>       
+                            </p>
+                            <a class="link" href="#">
+                                Участвовать
+                            </a>
+                        </div>
+                        <div class="box box-eight">
+                            <div class="images-box__phone">
+                                <img class="images" src="images/phone/phone-10.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg.png" alt="background">
+                            </div>
+                            <div class="images-box__phone-eight">
+                                <img class="images-eight" src="images/phone/phone-11.png" alt="images">
+                                <img class="images-bg" src="images/phone/phone-bg-2.svg" alt="background">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-nine" id="section9" data-anchor="section9">
+                <div class="container">
+                    <div class="section__inner-reverse">
+                        <ul class="slider">
+                            <li class="slider__item">
+                                <div class="images-box__phone-slider">
+                                    <img class="images-slider" src="images/phone/phone-12.png" alt="images">
+                                    <img class="images-bg-slider" src="images/phone/phone-bg-3.png" alt="background">
+                                </div>
+                                <div class="images-box__phone-nine">
+                                    <img class="images-nine" src="images/phone/phone-13.png" alt="images">
+                                    <img class="images-bg-nine" src="images/phone/phone-bg-3.png" alt="background">
+                                </div>
+                            </li>
+                            <li class="slider__item">
+                                <div class="images-box__phone-slider">
+                                    <img class="images-slider" src="images/phone/phone-12.png" alt="images">
+                                    <img class="images-bg-slider" src="images/phone/phone-bg-3.png" alt="background">
+                                </div>
+                                <div class="images-box__phone-nine">
+                                    <img class="images-nine" src="images/phone/phone-13.png" alt="images">
+                                    <img class="images-bg-nine" src="images/phone/phone-bg-3.png" alt="background">
+                                </div>
+                            </li>
+                            <li class="slider__item">
+                                <div class="images-box__phone-slider">
+                                    <img class="images-slider" src="images/phone/phone-12.png" alt="images">
+                                    <img class="images-bg-slider" src="images/phone/phone-bg-3.png" alt="background">
+                                </div>
+                                <div class="images-box__phone-nine">
+                                    <img class="images-nine" src="images/phone/phone-13.png" alt="images">
+                                    <img class="images-bg-nine" src="images/phone/phone-bg-3.png" alt="background">
+                                </div>
+                            </li>
+                            <li class="slider__item">
+                                <div class="images-box__phone-slider">
+                                    <img class="images-slider" src="images/phone/phone-12.png" alt="images">
+                                    <img class="images-bg-slider" src="images/phone/phone-bg-3.png" alt="background">
+                                </div>
+                                <div class="images-box__phone-nine">
+                                    <img class="images-nine" src="images/phone/phone-13.png" alt="images">
+                                    <img class="images-bg-nine" src="images/phone/phone-bg-3.png" alt="background">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="content-nine">
+                            <h2 class="title">
+                                Удобный и красивый <span>дизайн</span>
+                            </h2>
+                            <p class="text-eight">
+                                Работать с Mondays, <span>одно удовольствие</span>. 
+                                Мы уделяем эстетике <span>огромное</span> внимание, именно по-этому наша
+                                платформа не только функциональна, но и <span>красива</span>.       
+                            </p>
+                            <a class="link" href="#">
+                                Участвовать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <footer class="footer section" id="section10" data-anchor="section10">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="aside">
+                        <h3>Начни прямо сейчас</h3>
+                        <a class="big-link" href="#">
+                            УЧАСТВОВАТЬ
+                        </a>
+                    </div>
+                    <div class="footer__inner">
+                        <ul class="social">
+                            <li class="social-item">
+                                <a class="social-link__bottom social-link__facebook" href="#">
+                                    Facebook                    
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link__bottom social-link__instagram" href="#">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link__bottom social-link__telegram" href="#">
+                                    Telegram
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link__bottom social-link__email" href="#">
+                                    mondays@gmail.com
+                                </a>
+                            </li>
+                        </ul> 
+                        <div class="app">
+                            <a class="footer-logo-link" href="index.html">
+                                <img src="images/logo-footer.svg" alt="images logo">
+                            </a>
+                            <div class="app__box">
+                                <a class="app__link" href="#">
+                                    <img src="images/icons/google.svg" alt="images">
+                                </a>
+                                <a class="app__link" href="#">
+                                    <img src="images/icons/store.svg" alt="images">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("btn");
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "<img class='img-pause' src='images/icons/pause.svg' alt=''>";
+            } else {
+                video.pause();
+                btn.innerHTML = "<img src='images/icons/play.svg' alt=''>";
+            }
+        }
+        </script>
     <script src="js/main.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,15 @@
+%gotham-400{
+    font-family: 'GothamPro', sans-serif;
+    font-weight: 400;
+}
+%gotham-700{
+    font-family: 'GothamPro-Bold', sans-serif;
+    font-weight: 700;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
